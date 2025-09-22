@@ -1,0 +1,15 @@
+print("Program statring.",end="\n" + "Estimate how many minutes you spent on programming...")
+s1 = round(float(input("A1_T1: ")),2)
+s2 = round(float(input("A1_T2: ")),2)
+s3 = round(float(input("A1_T3: ")),2)
+s4 = round(float(input("A1_T4: ")),2)
+s5 = round(float(input("A1_T5: ")),2)
+s6 = round(float(input("A1_T6: ")),2)
+s7 = round(float(input("A1_T7: ")),2)
+total = s1 + s2 + s3 + s4 + s5 +s6 + s7
+average = total/7
+average1 = round(average,2)
+average2 = round(average)
+print(f"In total you spent {total} minutes on programming.")
+print(f"Average per task was {average1} min and same rounded to the nearest interger {average2} min. ")
+print("program ending.")
